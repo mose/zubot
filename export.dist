@@ -1,0 +1,2 @@
+export HUBOT_SLACK_TOKEN="xoxb-xxxx"
+export FILE_BRAIN_FILE="data/brain.json"

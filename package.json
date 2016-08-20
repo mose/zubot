@@ -1,0 +1,13 @@
+{
+  "name": "zubot",
+  "version": "0.0.0",
+  "private": true,
+  "author": "mose <mose@mose.com>",
+  "description": "An experimental semi-sentient being.",
+  "dependencies": {
+    "hubot-slack": "^4.0.2"
+  },
+  "engines": {
+    "node": "0.10.x"
+  }
+}
