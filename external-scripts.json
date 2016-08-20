@@ -1,2 +1,4 @@
 [
+  "hubot-auth",
+  "hubot-reload-scripts"
 ]
