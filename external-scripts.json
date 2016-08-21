@@ -1,4 +1,5 @@
 [
   "hubot-auth",
-  "hubot-reload-scripts"
+  "hubot-reload-scripts",
+  "hubot-cron-events"
 ]
