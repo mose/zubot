@@ -3,3 +3,4 @@ node_modules
 .hubot_history
 data/
 export
+npm-debug.log
