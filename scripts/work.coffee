@@ -30,3 +30,9 @@ module.exports = (robot) ->
       msg.send "Ok. #{key}=\"#{value}\""
     else
       msg.send "Unauthorized."
+
+  robot.respond /room/, (res) ->
+    res.send "This is #{res.envelope.room}"
+
+  robot.respond /envelope/, (res) ->
+    console.log res.envelope
