@@ -6,9 +6,11 @@
   "description": "An experimental semi-sentient being.",
   "dependencies": {
     "coffee-script": "^1.6.3",
+    "hubot-at-events": ">= 0.1.0",
     "hubot-auth": "^2.0.0",
     "hubot-cron-events": "^0.1.2",
-    "hubot-at-events": ">= 0.1.0",
+    "hubot-gitter2": "^0.1.3",
+    "hubot-help": "^0.2.0",
     "hubot-reload-scripts": "^0.1.2",
     "hubot-slack": "^4.0.2"
   },

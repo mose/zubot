@@ -4,3 +4,7 @@ export HUBOT_AUTH_ADMIN="mose"
 export HUBOT_LOG_LEVEL="info"
 export HUBOT_BASE_URL="http://localhost:8080/"
 export IP_WATCHER=""
+
+# Gitter
+export HUBOT_GITTER2_TOKEN=""
+export HUBOT_GITTER2_TESTING_ROOMS=""
