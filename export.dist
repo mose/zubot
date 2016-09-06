@@ -8,3 +8,7 @@ export IP_WATCHER=""
 # Gitter
 export HUBOT_GITTER2_TOKEN=""
 export HUBOT_GITTER2_TESTING_ROOMS=""
+
+# shell
+export SHELL_ROLE="admin"
+export SHELL_ROOM=""
