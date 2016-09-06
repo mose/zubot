@@ -3,5 +3,6 @@
   "hubot-help",
   "hubot-reload-scripts",
   "hubot-at-events",
+  "hubot-shell",
   "hubot-cron-events"
 ]
