@@ -12,3 +12,17 @@ export HUBOT_GITTER2_TESTING_ROOMS=""
 # shell
 export SHELL_ROLE="admin"
 export SHELL_ROOM=""
+
+# irc
+export HUBOT_IRC_SERVER="irc.freenode.net"
+export HUBOT_IRC_ROOMS="#hubot-bot"
+export HUBOT_IRC_NICK="eslogger"
+export HUBOT_IRC_UNFLOOD=50
+ 
+# elsaticsearch
+export ES_LOG_ROOMS="#hubot-bot"
+export ES_LOG_ES_URL="http://localhost:9200/"
+# export ES_LOG_KIBANA_URL="http://localhost/"
+# export ES_LOG_KIBANA_TEMPLATE="irclogger"
+export ES_LOG_INDEX_NAME="irclog"
+export ES_LOG_ENABLED="true"
