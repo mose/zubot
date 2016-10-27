@@ -18,7 +18,8 @@ export HUBOT_IRC_SERVER="irc.freenode.net"
 export HUBOT_IRC_ROOMS="#hubot-bot"
 export HUBOT_IRC_NICK="eslogger"
 export HUBOT_IRC_UNFLOOD=50
- 
+export HUBOT_IRC_DEBUG="true"
+
 # elsaticsearch
 export ES_LOG_ROOMS="#hubot-bot"
 export ES_LOG_ES_URL="http://localhost:9200/"
