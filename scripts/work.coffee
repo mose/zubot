@@ -8,8 +8,23 @@
 
 module.exports = (robot) ->
 
+  # override = (object, methodName, callback) ->
+  #   object[methodName] = callback(object[methodName])
+
+  # after = (extra) ->
+  #   (original) ->
+  #     () ->
+  #       returnValue = original.apply(this, arguments)
+  #       extra.apply(this, arguments)
+  #       returnValue
+
+  # override(robot.adapter, 'send', after( (envelope, strings...) ->
+  #   console.log strings...
+  # ))
+
+
   robot.respond /showme/, (res) ->
-    res.send "you #{res.message.user.name}"
+    res.send [ "you #{res.message.user.name}", 'punk' ]
 
   robot.respond /whatip$/, (msg) ->
     if robot.auth?.isAdmin(msg.envelope.user)
