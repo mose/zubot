@@ -1,6 +1,6 @@
 node_modules
 .DS_Store*
 .hubot_history
-data/
+data/brain.json
 export
 npm-debug.log
