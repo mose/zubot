@@ -20,6 +20,6 @@
     "node": "0.10.x"
   },
   "scripts": {
-    "start": "./bin/hubot -l . -a irc"
+    "start": "/app/bin/hubot -l . -a irc"
   }
 }
