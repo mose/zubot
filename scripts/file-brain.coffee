@@ -1,18 +1,3 @@
-# Description:
-#   None
-#
-# Dependencies:
-#   None
-#
-# Configuration:
-#   FILE_BRAIN_PATH
-#
-# Commands:
-#   None
-#
-# Author:
-#   dustyburwell
-
 fs   = require 'fs'
 path = require 'path'
 Util = require 'util'

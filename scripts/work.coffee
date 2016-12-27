@@ -23,6 +23,17 @@ module.exports = (robot) ->
   # ))
 
 
+  robot.receiveMiddleware (context, next, done) ->
+    message = context.response.message
+    console.log message.constructor.name
+    if message.constructor.name is "TextMessage"
+      next(done)
+
+  robot.receiveMiddleware (context, next, done) ->
+    console.log '--------'
+    done()
+
+
   robot.respond /showme/, (res) ->
     res.send [ "you #{res.message.user.name}", 'punk' ]
 
@@ -51,3 +62,7 @@ module.exports = (robot) ->
 
   robot.respond /envelope/, (res) ->
     console.log res.envelope
+
+  robot.respond /priv me/, (res) ->
+    delete res.message.user.room
+    res.send "woot"
