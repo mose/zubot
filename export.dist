@@ -27,3 +27,12 @@ export ES_LOG_ES_URL="http://localhost:9200/"
 # export ES_LOG_KIBANA_TEMPLATE="irclogger"
 export ES_LOG_INDEX_NAME="irclog"
 export ES_LOG_ENABLED="true"
+
+# pager v2
+export PAGERV2_API_KEY=""
+export PAGERV2_SCHEDULE_ID=""
+export PAGERV2_OVERRIDERS=""
+export PAGERV2_SERVICES=""
+export PAGERV2_DEFAULT_RESOLVER=""
+export PAGERV2_ENDPOINT=""
+export PAGERV2_ANNOUNCE_ROOM=""
