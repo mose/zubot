@@ -4,3 +4,4 @@ node_modules
 data/brain.json
 export
 npm-debug.log
+logs/*.log

@@ -23,15 +23,15 @@ module.exports = (robot) ->
   # ))
 
 
-  robot.receiveMiddleware (context, next, done) ->
-    message = context.response.message
-    console.log message.constructor.name
-    if message.constructor.name is "TextMessage"
-      next(done)
+  # robot.receiveMiddleware (context, next, done) ->
+  #   message = context.response.message
+  #   console.log message.constructor.name
+  #   if message.constructor.name is "TextMessage"
+  #     next(done)
 
-  robot.receiveMiddleware (context, next, done) ->
-    console.log '--------'
-    done()
+  # robot.receiveMiddleware (context, next, done) ->
+  #   console.log '--------'
+  #   done()
 
 
   robot.respond /showme/, (res) ->

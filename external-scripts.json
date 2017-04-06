@@ -2,6 +2,5 @@
   "hubot-auth",
   "hubot-help",
   "hubot-reload-scripts",
-  "hubot-at-events",
-  "hubot-cron-events"
+  "hubot-pagerv2"
 ]
