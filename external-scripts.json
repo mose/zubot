@@ -1,6 +1,5 @@
 [
   "hubot-auth",
   "hubot-help",
-  "hubot-reload-scripts",
-  "hubot-pagerv2"
+  "hubot-reload-scripts"
 ]
