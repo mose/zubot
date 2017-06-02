@@ -66,3 +66,6 @@ module.exports = (robot) ->
   robot.respond /priv me/, (res) ->
     delete res.message.user.room
     res.send "woot"
+
+  robot.respond /who/, (res) ->
+    res.send robot.name
