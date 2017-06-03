@@ -28,3 +28,6 @@ export ES_LOG_ES_URL="http://localhost:9200/"
 export ES_LOG_INDEX_NAME="irclog"
 export ES_LOG_ENABLED="true"
 export ES_LOG_SINGLE_INDEX="true" 
+
+export HUBOT_HELP_REPLY_IN_PRIVATE="true"
+export REDIS_URL=redis:///var/run/redis/redis.sock?hubot

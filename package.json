@@ -8,9 +8,11 @@
     "coffee-script": "~1.6.3",
     "hubot": "*",
     "hubot-auth": "^2.0.0",
+    "hubot-slack": "*",
     "hubot-help": "^0.2.0",
     "hubot-irc": "= 0.2.8",
     "hubot-reload-scripts": "^0.1.2",
+    "hubot-redis-brain": "^0.0.3",
     "npm": ">= 1.1.x"
   },
   "engines": {

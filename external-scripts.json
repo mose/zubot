@@ -1,5 +1,6 @@
 [
   "hubot-auth",
   "hubot-help",
+  "hubot-redis-brain",
   "hubot-reload-scripts"
 ]
