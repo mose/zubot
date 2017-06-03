@@ -9,6 +9,8 @@
     "hubot": "*",
     "hubot-auth": "^2.0.0",
     "hubot-slack": "*",
+    "hubot-gitter2": "*",
+    "hubot-rocketchat": "*",
     "hubot-help": "^0.2.0",
     "hubot-irc": "= 0.2.8",
     "hubot-reload-scripts": "^0.1.2",
