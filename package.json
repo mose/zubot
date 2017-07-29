@@ -6,20 +6,20 @@
   "description": "An experimental semi-sentient being.",
   "dependencies": {
     "coffee-script": "~1.6.3",
-    "hubot": "*",
+    "hubot": "^3.0.1",
     "hubot-auth": "^2.0.0",
-    "hubot-slack": "*",
     "hubot-gitter2": "*",
-    "hubot-rocketchat": "*",
-    "hubot-help": "^0.2.0",
+    "hubot-help": "^1.0.1",
     "hubot-irc": "= 0.2.8",
+    "hubot-redis-brain": "^1.0.0",
     "hubot-reload-scripts": "^0.1.2",
-    "hubot-redis-brain": "^0.0.3",
+    "hubot-rocketchat": "*",
+    "hubot-slack": "*",
     "npm": ">= 1.1.x"
   },
   "engines": {
-    "node": "0.10.x",
-    "npm": ">= 1.1.x"
+    "node": "> 4.0.0",
+    "npm": "> 2.0.0"
   },
   "scripts": {
     "start": "/app/bin/hubot -l . -a irc"

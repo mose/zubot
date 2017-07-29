@@ -2,7 +2,7 @@
 # path = require 'path'
 # Util = require 'util'
 
-# module.exports = (robot) ->
+module.exports = (robot) ->
 #   brainPath = process.env.FILE_BRAIN_FILE or '/var/hubot/brain-dump.json'
 
 #   try
