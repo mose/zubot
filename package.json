@@ -10,16 +10,14 @@
     "hubot-auth": "^2.0.0",
     "hubot-gitter2": "*",
     "hubot-help": "^1.0.1",
-    "hubot-irc": "= 0.2.8",
+    "hubot-irc": "= 0.4.0",
     "hubot-redis-brain": "^1.0.0",
     "hubot-reload-scripts": "^0.1.2",
     "hubot-rocketchat": "*",
-    "hubot-slack": "*",
-    "npm": ">= 1.1.x"
+    "hubot-slack": "*"
   },
   "engines": {
-    "node": "> 4.0.0",
-    "npm": "> 2.0.0"
+    "node": "> 4.0.0"
   },
   "scripts": {
     "start": "/app/bin/hubot -l . -a irc"
